@@ -34,8 +34,8 @@
 			}
 			if (tipo ==  2 & !quebrada) {
 				arquivo = "apagada.png";
-				document.body.style.backgroundColor = "#FFF";
-				document.getElementById("tit").style.color = "#AAA";
+				document.body.style.backgroundColor = "#333";
+				document.getElementById("tit").style.color = "#EEE";
 			}
 			if (tipo ==  3) {
 				arquivo = "quebrada.png";
