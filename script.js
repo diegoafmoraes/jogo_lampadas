@@ -30,12 +30,12 @@
 			if (tipo ==  1 & !quebrada) {
 				arquivo = "acesa.png";
 				document.body.style.backgroundColor = "#FFF";
-				document.getElementById("tit").style.color = "#CCC";
+				document.getElementById("tit").style.color = "#000";
 			}
 			if (tipo ==  2 & !quebrada) {
 				arquivo = "apagada.png";
 				document.body.style.backgroundColor = "#999";
-				document.getElementById("tit").style.color = "#000";
+				document.getElementById("tit").style.color = "#AAA";
 			}
 			if (tipo ==  3) {
 				arquivo = "quebrada.png";
