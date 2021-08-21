@@ -1,0 +1,51 @@
+    <!DOCTYPE html>
+    <html lang="pt-br">
+    <head>
+    	<meta charset="iso-8859-1"/>
+    	<meta content="width=device-width, initial-scale=1, maximum-scale=1" name="viewport">
+    	<title>Troque a Lâmpada </title>
+    	<link href="style.css" rel="stylesheet"/>
+        <script src="script.js"></script>
+
+    </head>
+
+    <body>
+
+	<div id="escuro">
+
+		<div id="socket">
+
+			<h2 id="tit">Acenda a Lâmpada</h2>
+
+			<h3> Passe o mouse sobre a lâmpada e Clique sobre ela</h3>
+
+			<input type="button" value="Trocar de Lâmpada" onClick="mudaLampada(4)" />
+
+				<br />
+
+				<img src="apagada.png" style="cursor: grabbing" id="luz" onMouseOver="mudaLampada(1);" onMouseOut="mudaLampada(2)" onClick="mudaLampada(3)" />
+     
+				<span id="estoque">Estoque : <input type="text" value="3" readonly="readonly" size="1"  /></span>
+
+				<div id="lamps">
+
+                    <span style="display: inline-block;"><h3>Estoque</h3></span>
+                    
+                    <span style="display: inline-block;">
+                                <img id="lamp-00" src="apagada.png" width="30" />
+                                <img id="lamp-01" src="apagada.png" width="30" />
+                                <img id="lamp-02" src="apagada.png" width="30" />
+                    </span>
+
+				</div>
+
+		</div>
+        
+	</div>
+
+    <div id="restart">
+        <a class="botao01" id="rel" href="javascript: rel()">Começar de novo</a>
+    </div>
+	
+    </body>
+    </html>
